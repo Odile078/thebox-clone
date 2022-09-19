@@ -110,6 +110,9 @@
     .button--blue{
         @apply bg-brandblue hover:bg-brandblue-light text-white
     }
+    .button--orange{
+        @apply bg-brandorange hover:bg-orange-400 text-white
+    }
     .projects{
         @apply p-4 sm:p-10
     }
@@ -118,6 +121,9 @@
     }
     .projects-content{
         @apply sm:flex justify-between
+    }
+    .projects-sidebar{
+        @apply p-6
     }
     .projects-sidebar__item{
         @apply flex flex-col
@@ -151,26 +157,65 @@
         @apply text-xs
     }
     .contacts{
-        @apply flex flex-col items-center bg-gray-100
+        @apply flex flex-col items-center bg-gray-100 space-y-6 py-10 px-4
     }
     .contacts__title{
         @apply font-bold text-xl text-gray-900
     }
     .contacts__description{
-        @apply text-sm text-gray-900
+        @apply text-base text-gray-900
     }
     .contacts-form{
-        @apply max-w-lg
+        @apply max-w-lg space-y-6
     }
     .contacts-form__group{
-        @apply flex justify-between
+        @apply grid grid-cols-1 sm:grid-cols-2 gap-4
     }
+    .contacts-form__label{
+        @apply text-sm text-gray-900 font-bold
+    }
+    .contacts-form__label--hidden{
+        @apply absolute;
+        /* position: absolute; */
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        white-space: nowrap;
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        border: 0
+        
+    }
+    .contacts-form__input{
+        @apply text-sm p-2 border border-gray-100 bg-white text-gray-700
+    }
+    .contacts-form__textarea{
+        @apply w-full text-sm text-gray-700 h-20 border border-gray-100
+    }
+   
     .footer-up{
-        @apply py-10 px-4 sm:px-10 sm:flex justify-between 
+        @apply py-10 px-4 sm:px-10 sm:flex justify-between bg-white
+    }
+    .footer-contact{
+        @apply space-y-6
     }
     .footer-down{
         @apply bg-brandblue py-3 px-4 sm:px-10
 
     }
-    
+    .footer-address{
+        @apply space-y-6
+    }
+
+    .footer-address__item{
+        @apply flex space-x-2 items-center flex-wrap
+    }
+    .footer-address__title{
+        @apply text-brandblue font-normal text-base tracking-widest uppercase
+    }
+    .footer-address__content{
+        @apply text-gray-700 font-bold text-sm tracking-normal
+    }
 }
