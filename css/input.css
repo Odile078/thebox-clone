@@ -110,5 +110,55 @@
     .button--blue{
         @apply bg-brandblue hover:bg-brandblue-light text-white
     }
+    .projects{
+        @apply p-4 sm:p-10
+    }
+    .projects__title{
+        @apply font-bold text-xl text-gray-900 my-2
+    }
+    .projects-content{
+        @apply sm:flex justify-between
+    }
+    .projects-sidebar__item{
+        @apply flex flex-col
+    }
+    .projects-sidebar__link{
+        @apply text-xs text-gray-700 
+    }
+    .projects-sidebar__link--hover{
+        @apply hover:text-brandblue
+    }
+    .projects-sidebar__link--active{
+        @apply active:text-brandblue
+    }
+    .projects-card{
+        @apply flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4
+    }
+    .projects-card__item{
+        @apply bg-brandblue text-white
+    }
+    .projects-card__img{
+        @apply object-cover object-center
+    }
+    .projects-card__body{
+        @apply p-3
+
+    }
+    .projects-card__title{
+        @apply text-sm font-bold
+    }
+    .projects-card__description{
+        @apply text-xs
+    }
+    .contacts{
+        @apply flex flex-col items-center bg-gray-100
+    }
+    .footer-up{
+        @apply py-10 px-4 sm:px-10 sm:flex justify-between 
+    }
+    .footer-down{
+        @apply bg-brandblue py-3 px-4 sm:px-10
+
+    }
     
 }

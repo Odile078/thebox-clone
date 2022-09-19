@@ -335,8 +335,114 @@
          
         </div>
       </section>
-      <section id="projects"></section>
-      <section id="contact"></section> 
+      <section id="projects" class="projects">
+        <h3 class="projects__title">Projects</h3>
+        <div class="projects-content">
+          <ul class="projects-sidebar">
+            <li class="projects-sidebar__item"><a href="#" class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active">All</a></li>
+            <li class="projects-sidebar__item"><a href="#" class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active">Commercial</a></li>
+            <li class="projects-sidebar__item"><a href="#" class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active">Residential</a></li>
+            <li class="projects-sidebar__item"><a href="#" class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active">Other</a></li>
+          </ul>
+          <div>
+            <div class="projects-card">
+              <div class="projects-card__item">
+                <img class="projects-card__img" src="/images/project_1.png" alt="Project 1 "/>
+                <div class="projects-card__body">
+                  <h5 class="projects-card__title">Wildstone Infra Hotel</h5>
+                <p class="projects-card__description">2715 Ash Dr. San Jose, South Dakota</p>
+                </div>
+                
+              </div>
+              <div class="projects-card__item"><img class="projects-card__img" src="/images/project_2.png" alt="Project 1 "/>
+                <div class="projects-card__body">
+                  <h5 class="projects-card__title">Wish Stone Building</h5>
+                <p class="projects-card__description">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                </div>
+              </div>
+              <div class="projects-card__item"><img class="projects-card__img" src="/images/project_3.png" alt="Project 1 "/>
+                <div class="projects-card__body">
+                  <h5 class="projects-card__title">Mr. Parkinston’s House</h5>
+                <p class="projects-card__description">3517 W. Gray St. Utica, Pennsylvania </p>
+                </div>
+              </div>
+              <div class="projects-card__item"><img class="projects-card__img" src="/images/project_4.png" alt="Project 1 "/>
+                <div class="projects-card__body">
+                  <h5 class="projects-card__title">Oregano Height</h5>
+                <p class="projects-card__description">2464 Royal Ln. Mesa, New Jersey </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between bg-gray-900">
+              <button class="flex-1 p-2 border-r-2 border-r-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.28 7.72a.75.75 0 010 1.06l-2.47 2.47H21a.75.75 0 010 1.5H4.81l2.47 2.47a.75.75 0 11-1.06 1.06l-3.75-3.75a.75.75 0 010-1.06l3.75-3.75a.75.75 0 011.06 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <button class="flex-1 p-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          
+        </div>
+        
+      </section>
+      <section id="contact" class="contacts">
+        <h3 class="contacts__title">What can us do for you?</h3>
+        <p class="contacts__description">We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
+        <form class="contacts-form">
+          <div class="contacts-form__group">
+            <div class="">
+              <label class="name" for="name">Your Name*</label>
+              <input type="text" id="name" placeholder="Your Name*" class="contacts-form__input"/>
+            </div>
+            <div class="">
+              <label class="name" for="email">Email*</label>
+              <input type="email" id="email" placeholder="Email*" class="contacts-form__input"/>
+            </div>
+          </div>
+          <div class="contacts-form__group">
+            <div class="">
+              <label class="name" for="reason">Reason for Contacting*</label>
+              <input type="text" id="reason" placeholder="Reason for Contacting*" class="contacts-form__input"/>
+            </div>
+            <div class="">
+              <label class="name" for="phone">Phone</label>
+              <input type="number" id="phone" placeholder="Phone" class="contacts-form__input"/>
+            </div>
+          </div>
+          <div>
+            <label class="name" for="message">Message</label>
+            <textarea id="message" class="" placeholder=""></textarea>
+          </div>
+          <div><p>* indicates a required field</p></div>
+          <button class="button button--hover button--focus">Submit</button>
+        </form>
+      </section> 
+      <footer>
+
+      </footer>
     </main>
     <footer></footer>
   </body>
