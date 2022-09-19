@@ -1,0 +1,5 @@
+#Dependencies
+/node-modules
+#Production
+#build
+/build

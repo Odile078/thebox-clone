@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    /* nav bar */
+    .nav{
+        @apply hidden sm:flex space-x-3
+    }
+    .nav__link{
+        @apply text-sm text-gray-500
+    }
+    .nav__link--hover{
+        @apply hover:text-brandorange
+    }
+    .nav__link--active{
+        @apply active:text-brandorange
+    }
+    /* reputation card */
+    .reputation-card{
+        @apply border border-gray-200 rounded-sm p-3
+    }
+    .reputation-card__title{ 
+        @apply text-base text-gray-900 font-bold
+    }
+    .reputation-card__description{
+        @apply text-sm text-gray-700
+    }
+    .btn{
+        @apply text-brandblue  bg-white text-sm rounded-sm px-3 py-2
+    }
+    .btn--hover{
+        @apply hover:text-brandblue-light hover:shadow hover:translate-y-1 hover:duration-100 hover:transform
+    }
+    .services{
+        @apply bg-gray-100 flex flex-col items-center
+    }
+    .services-card{
+        @apply  grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-10 max-w-lg mx-4 sm:mx-0
+    }
+    .services-card__item{
+        @apply flex flex-col items-center p-6 space-y-4
+    }
+    .services-card__item--white{
+        @apply bg-white text-brandblue 
+    }
+    .services-card__item--blue{
+        @apply bg-brandblue text-white
+    }
+    .services-card__icon{
+        @apply self-center border-b-2 p-2
+    }
+    .services-card__item--blue .services-card__icon{
+        @apply border-b-white
+    }
+    .services-card__item--white .services-card__icon{
+        @apply border-b-blue-100
+    }
+    .services-card__name{
+        @apply text-xs
+    }
+    .experience{
+        @apply bg-white px-4 sm:px-10 py-10 grid grid-cols-1 sm:grid-cols-2
+    }
+    
+    .experience-card{
+        @apply p-4 grid grid-cols-2 gap-4 sm:grid-cols-2 sm:gap-10
+    }
+  
+    .experience-card__item{
+        @apply relative shadow p-6 space-y-6 
+    }
+    .experience-card__item--left{
+        @apply self-end
+    }
+    .experience-card__item--right{
+        @apply self-start
+    }
+    .experience-card__item--left .experience-card__img{
+        @apply absolute h-14 w-14 -left-5 bottom-0 top-0
+    }
+    .experience-card__item--right .experience-card__img{
+        @apply absolute h-14 w-14 -right-5 top-0
+    }
+    .experience-card__title{
+        @apply text-lg font-bold text-gray-900
+    }
+    .experience-card__description{
+        @apply text-xs text-gray-700 border-l-2 border-brandorange px-2
+    }
+    .experience-content{
+        @apply self-center p-6 md:p-10 space-y-6
+    }
+    .experience-content__title{
+        @apply text-4xl text-brandblue font-bold
+    }
+    .experience-content__description{
+        @apply text-sm text-gray-900 
+    }
+   
+    .button {
+        @apply text-sm rounded-sm px-3 py-2
+    }
+    .button--hover{
+        @apply hover:shadow hover:translate-y-1 hover:duration-100 hover:transform
+    }.button--white{
+        @apply bg-white text-brandblue hover:text-brandblue-light
+    } .button--transparent{
+        @apply bg-transparent text-white border border-white
+    }
+    .button--blue{
+        @apply bg-brandblue hover:bg-brandblue-light text-white
+    }
+    
+}
