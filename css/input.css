@@ -153,6 +153,18 @@
     .contacts{
         @apply flex flex-col items-center bg-gray-100
     }
+    .contacts__title{
+        @apply font-bold text-xl text-gray-900
+    }
+    .contacts__description{
+        @apply text-sm text-gray-900
+    }
+    .contacts-form{
+        @apply max-w-lg
+    }
+    .contacts-form__group{
+        @apply flex justify-between
+    }
     .footer-up{
         @apply py-10 px-4 sm:px-10 sm:flex justify-between 
     }
