@@ -59,15 +59,15 @@
         @apply text-xs
     }
     .experience{
-        @apply bg-white px-4 sm:px-10 py-10 grid grid-cols-1 sm:grid-cols-2
+        @apply bg-white px-4 sm:px-10 py-10 grid grid-cols-1 sm:grid-cols-3 relative
     }
     
     .experience-card{
-        @apply p-4 grid grid-cols-2 gap-4 sm:grid-cols-2 sm:gap-10
+        @apply p-4 grid grid-cols-2 gap-4 sm:grid-cols-2 sm:gap-10 sm:col-span-2
     }
   
     .experience-card__item{
-        @apply relative shadow p-6 space-y-6 
+        @apply relative shadow p-4 space-y-6 
     }
     .experience-card__item--left{
         @apply self-end
@@ -123,7 +123,7 @@
         @apply sm:flex justify-between
     }
     .projects-sidebar{
-        @apply p-6
+        @apply p-6 space-y-3
     }
     .projects-sidebar__item{
         @apply flex flex-col
@@ -213,9 +213,9 @@
         @apply flex space-x-2 items-center flex-wrap
     }
     .footer-address__title{
-        @apply text-brandblue font-normal text-base tracking-widest uppercase
+        @apply text-brandblue font-normal text-sm tracking-widest uppercase
     }
     .footer-address__content{
-        @apply text-gray-700 font-bold text-sm tracking-normal
+        @apply text-gray-700  text-sm tracking-normal pl-2
     }
 }

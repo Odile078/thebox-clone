@@ -7,7 +7,7 @@
     <link href="/css/input.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="flex items-center justify-between px-10 py-3">
+    <header class="flex items-center justify-between px-4 py-3 sm:px-10">
       <div class="flex items-center space-x-1">
         <img src="./images/logo.png" alt="Logo" class="" />
         <p class="text-base font-bold text-brandblue">The box</p>
@@ -117,7 +117,9 @@
             </h5>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-center mx-4 my-10 space-y-10 sm:mx-0">
+        <div
+          class="flex flex-col items-center justify-center mx-4 my-10 space-y-10 sm:mx-0"
+        >
           <h5 class="text-xl font-bold text-gray-900">Our Reputation</h5>
           <div class="grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-3">
             <div class="reputation-card">
@@ -178,198 +180,396 @@
           </div>
         </div>
       </section>
-      <section id="about us" class="mx-4 my-10 md:px-10 md:flex ">
+      <section id="about us" class="mx-4 my-10 md:px-10 md:flex">
         <div class="flex-1">
-        <img src="./images/about_us_img.png" alt="about us " class="object-cover object-center"/>
-        </div><div class="self-center p-10 space-y-4 text-white bg-brandblue md:w-3/6 md:-ml-20">
-            <h3 class="text-xl font-bold">About us</h3>
-            <p class="text-sm">
-                For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way.</br> We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.
-            </p>
-            <button class="button button--hover button--white">More on Our History</button>
+          <img
+            src="./images/about_us_img.png"
+            alt="about us "
+            class="object-cover object-center"
+          />
+        </div>
+        <div
+          class="self-center p-10 space-y-4 text-white bg-brandblue md:w-3/6 md:-ml-20"
+        >
+          <h3 class="text-xl font-bold">About us</h3>
+          <p class="text-sm">
+            For more than 30 years we have been delivering world-class
+            construction and we’ve built many lasting relationships along the
+            way.<br />
+            We’ve matured into an industry leader and trusted resource for those
+            seeking quality, innovation and reliability when building in the
+            U.S.
+          </p>
+          <button class="button button--hover button--white">
+            More on Our History
+          </button>
         </div>
       </section>
       <section id="services">
         <div class="py-10 services">
           <h5 class="text-xl font-bold text-gray-900">Services</h5>
           <div class="services-card">
-            
             <div class="services-card__item services-card__item--white">
-              
               <div class="services-card__icon">
-                <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="41"
+                  height="40"
+                  viewBox="0 0 41 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <g clip-path="url(#clip0_239_24)">
-                  <rect x="0.5" y="16.6666" width="23.3333" height="23.3333" fill="#7595FD"/>
-                  <path d="M32.1517 3.33337H15.5167C13.665 3.33337 12.1667 4.83171 12.1667 6.68337V16.0784L4.33001 23.815C4.0952 24.0473 3.93468 24.344 3.86881 24.6676C3.80295 24.9913 3.83471 25.3271 3.96006 25.6327C4.08542 25.9382 4.29872 26.1996 4.5729 26.3837C4.84707 26.5678 5.16976 26.6663 5.50001 26.6667V35C5.50001 35.4421 5.6756 35.866 5.98816 36.1786C6.30072 36.4911 6.72465 36.6667 7.16668 36.6667H33.8333C34.2754 36.6667 34.6993 36.4911 35.0119 36.1786C35.3244 35.866 35.5 35.4421 35.5 35V6.68171C35.5 4.83171 34.0033 3.33337 32.1517 3.33337ZM18.7033 25.185V33.3334H8.83334V24.0534L13.8117 19.1384L18.7033 24.1434V25.185ZM22.1667 15H18.8333V11.6667H22.1667V15ZM28.8333 28.3334H25.5V25H28.8333V28.3334ZM28.8333 21.6667H25.5V18.3334H28.8333V21.6667ZM28.8333 15H25.5V11.6667H28.8333V15Z" fill="#292E3D"/>
-                  <path d="M12.1666 25H15.5V28.3333H12.1666V25Z" fill="#14171F"/>
+                    <rect
+                      x="0.5"
+                      y="16.6666"
+                      width="23.3333"
+                      height="23.3333"
+                      fill="#7595FD"
+                    />
+                    <path
+                      d="M32.1517 3.33337H15.5167C13.665 3.33337 12.1667 4.83171 12.1667 6.68337V16.0784L4.33001 23.815C4.0952 24.0473 3.93468 24.344 3.86881 24.6676C3.80295 24.9913 3.83471 25.3271 3.96006 25.6327C4.08542 25.9382 4.29872 26.1996 4.5729 26.3837C4.84707 26.5678 5.16976 26.6663 5.50001 26.6667V35C5.50001 35.4421 5.6756 35.866 5.98816 36.1786C6.30072 36.4911 6.72465 36.6667 7.16668 36.6667H33.8333C34.2754 36.6667 34.6993 36.4911 35.0119 36.1786C35.3244 35.866 35.5 35.4421 35.5 35V6.68171C35.5 4.83171 34.0033 3.33337 32.1517 3.33337ZM18.7033 25.185V33.3334H8.83334V24.0534L13.8117 19.1384L18.7033 24.1434V25.185ZM22.1667 15H18.8333V11.6667H22.1667V15ZM28.8333 28.3334H25.5V25H28.8333V28.3334ZM28.8333 21.6667H25.5V18.3334H28.8333V21.6667ZM28.8333 15H25.5V11.6667H28.8333V15Z"
+                      fill="#292E3D"
+                    />
+                    <path
+                      d="M12.1666 25H15.5V28.3333H12.1666V25Z"
+                      fill="#14171F"
+                    />
                   </g>
                   <defs>
-                  <clipPath id="clip0_239_24">
-                  <rect width="40" height="40" fill="white" transform="translate(0.5)"/>
-                  </clipPath>
+                    <clipPath id="clip0_239_24">
+                      <rect
+                        width="40"
+                        height="40"
+                        fill="white"
+                        transform="translate(0.5)"
+                      />
+                    </clipPath>
                   </defs>
-                  </svg>
+                </svg>
               </div>
-             
+
               <p class="services-card__name">Construction</p>
             </div>
             <div class="services-card__item services-card__item--blue">
               <div class="services-card__icon">
-                <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="41"
+                  height="40"
+                  viewBox="0 0 41 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <g clip-path="url(#clip0_239_43)">
-                  <rect x="0.5" y="16.6666" width="23.3333" height="23.3333" fill="#7595FD"/>
-                  <path d="M33 5.00004C31.8952 5.00093 30.8359 5.4402 30.0547 6.22141C29.2735 7.00262 28.8342 8.06191 28.8333 9.16671C28.8333 9.76171 28.9633 10.3267 29.19 10.8417L25.9317 14.5067C24.8248 13.7427 23.5116 13.3334 22.1667 13.3334C20.9333 13.3334 19.7933 13.6934 18.8017 14.2767L15.0117 10.4884L14.9733 10.5267C15.3 9.86338 15.5 9.12504 15.5 8.33338C15.5 7.34447 15.2068 6.37777 14.6573 5.55553C14.1079 4.73328 13.327 4.09242 12.4134 3.71398C11.4998 3.33554 10.4945 3.23652 9.52455 3.42945C8.55465 3.62238 7.66373 4.09858 6.96447 4.79784C6.26521 5.49711 5.789 6.38802 5.59608 7.35792C5.40315 8.32783 5.50217 9.33316 5.8806 10.2468C6.25904 11.1604 6.89991 11.9413 7.72215 12.4907C8.5444 13.0401 9.5111 13.3334 10.5 13.3334C11.2917 13.3334 12.0283 13.1334 12.6933 12.8067L12.655 12.845L16.445 16.6334C15.8327 17.6501 15.5063 18.8132 15.5 20C15.5 21.6617 16.1333 23.165 17.1417 24.335L12.8467 28.6284C12.3653 28.4357 11.8518 28.3356 11.3333 28.3334C9.03667 28.3334 7.16667 30.2017 7.16667 32.5C7.16667 34.7984 9.03667 36.6667 11.3333 36.6667C13.63 36.6667 15.5 34.7984 15.5 32.5C15.5 31.965 15.39 31.4567 15.205 30.985L19.935 26.255C20.6367 26.505 21.38 26.6667 22.1667 26.6667C25.8433 26.6667 28.8333 23.6767 28.8333 20C28.8333 18.94 28.5617 17.9517 28.12 17.06L31.6483 13.0884C32.075 13.235 32.525 13.3334 33 13.3334C35.2983 13.3334 37.1667 11.465 37.1667 9.16671C37.1667 6.86838 35.2983 5.00004 33 5.00004ZM22.1667 23.3334C20.3283 23.3334 18.8333 21.8384 18.8333 20C18.8333 18.1617 20.3283 16.6667 22.1667 16.6667C24.005 16.6667 25.5 18.1617 25.5 20C25.5 21.8384 24.005 23.3334 22.1667 23.3334Z" fill="white"/>
+                    <rect
+                      x="0.5"
+                      y="16.6666"
+                      width="23.3333"
+                      height="23.3333"
+                      fill="#7595FD"
+                    />
+                    <path
+                      d="M33 5.00004C31.8952 5.00093 30.8359 5.4402 30.0547 6.22141C29.2735 7.00262 28.8342 8.06191 28.8333 9.16671C28.8333 9.76171 28.9633 10.3267 29.19 10.8417L25.9317 14.5067C24.8248 13.7427 23.5116 13.3334 22.1667 13.3334C20.9333 13.3334 19.7933 13.6934 18.8017 14.2767L15.0117 10.4884L14.9733 10.5267C15.3 9.86338 15.5 9.12504 15.5 8.33338C15.5 7.34447 15.2068 6.37777 14.6573 5.55553C14.1079 4.73328 13.327 4.09242 12.4134 3.71398C11.4998 3.33554 10.4945 3.23652 9.52455 3.42945C8.55465 3.62238 7.66373 4.09858 6.96447 4.79784C6.26521 5.49711 5.789 6.38802 5.59608 7.35792C5.40315 8.32783 5.50217 9.33316 5.8806 10.2468C6.25904 11.1604 6.89991 11.9413 7.72215 12.4907C8.5444 13.0401 9.5111 13.3334 10.5 13.3334C11.2917 13.3334 12.0283 13.1334 12.6933 12.8067L12.655 12.845L16.445 16.6334C15.8327 17.6501 15.5063 18.8132 15.5 20C15.5 21.6617 16.1333 23.165 17.1417 24.335L12.8467 28.6284C12.3653 28.4357 11.8518 28.3356 11.3333 28.3334C9.03667 28.3334 7.16667 30.2017 7.16667 32.5C7.16667 34.7984 9.03667 36.6667 11.3333 36.6667C13.63 36.6667 15.5 34.7984 15.5 32.5C15.5 31.965 15.39 31.4567 15.205 30.985L19.935 26.255C20.6367 26.505 21.38 26.6667 22.1667 26.6667C25.8433 26.6667 28.8333 23.6767 28.8333 20C28.8333 18.94 28.5617 17.9517 28.12 17.06L31.6483 13.0884C32.075 13.235 32.525 13.3334 33 13.3334C35.2983 13.3334 37.1667 11.465 37.1667 9.16671C37.1667 6.86838 35.2983 5.00004 33 5.00004ZM22.1667 23.3334C20.3283 23.3334 18.8333 21.8384 18.8333 20C18.8333 18.1617 20.3283 16.6667 22.1667 16.6667C24.005 16.6667 25.5 18.1617 25.5 20C25.5 21.8384 24.005 23.3334 22.1667 23.3334Z"
+                      fill="white"
+                    />
                   </g>
                   <defs>
-                  <clipPath id="clip0_239_43">
-                  <rect width="40" height="40" fill="white" transform="translate(0.5)"/>
-                  </clipPath>
+                    <clipPath id="clip0_239_43">
+                      <rect
+                        width="40"
+                        height="40"
+                        fill="white"
+                        transform="translate(0.5)"
+                      />
+                    </clipPath>
                   </defs>
-                  </svg>
+                </svg>
               </div>
-              
-                <p class="services-card__name">Renovation</p>
+
+              <p class="services-card__name">Renovation</p>
             </div>
             <div class="services-card__item services-card__item--white">
-              <div class="services-card__icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M14.3333 5.99995H19.3333L24.8167 0.499955C24.9716 0.343741 25.1559 0.219751 25.359 0.135136C25.5621 0.0505217 25.78 0.00695801 26 0.00695801C26.22 0.00695801 26.4379 0.0505217 26.641 0.135136C26.8441 0.219751 27.0284 0.343741 27.1833 0.499955L31.4833 4.81662C31.7938 5.12889 31.968 5.55131 31.968 5.99162C31.968 6.43193 31.7938 6.85435 31.4833 7.16662L27.6667 11H14.3333V14.3333C14.3333 14.7753 14.1577 15.1992 13.8452 15.5118C13.5326 15.8244 13.1087 16 12.6667 16C12.2246 16 11.8007 15.8244 11.4882 15.5118C11.1756 15.1992 11 14.7753 11 14.3333V9.33329C11 8.44923 11.3512 7.60139 11.9763 6.97626C12.6014 6.35114 13.4493 5.99995 14.3333 5.99995ZM4.33333 14.3333V21L0.516667 24.8166C0.206249 25.1289 0.0320129 25.5513 0.0320129 25.9916C0.0320129 26.4319 0.206249 26.8544 0.516667 27.1666L4.81667 31.4833C4.97161 31.6395 5.15594 31.7635 5.35904 31.8481C5.56214 31.9327 5.77998 31.9763 6 31.9763C6.22002 31.9763 6.43786 31.9327 6.64096 31.8481C6.84406 31.7635 7.02839 31.6395 7.18333 31.4833L14.3333 24.3333H21C21.442 24.3333 21.8659 24.1577 22.1785 23.8451C22.4911 23.5326 22.6667 23.1086 22.6667 22.6666V21H24.3333C24.7754 21 25.1993 20.8244 25.5118 20.5118C25.8244 20.1992 26 19.7753 26 19.3333V17.6666H27.6667C28.1087 17.6666 28.5326 17.491 28.8452 17.1785C29.1577 16.8659 29.3333 16.442 29.3333 16V14.3333H17.6667V16C17.6667 16.884 17.3155 17.7319 16.6904 18.357C16.0652 18.9821 15.2174 19.3333 14.3333 19.3333H11C10.1159 19.3333 9.2681 18.9821 8.64298 18.357C8.01786 17.7319 7.66667 16.884 7.66667 16V11L4.33333 14.3333Z" fill="#292E3D"/>
-                </svg></div>
-              
-                
+              <div class="services-card__icon">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.3333 5.99995H19.3333L24.8167 0.499955C24.9716 0.343741 25.1559 0.219751 25.359 0.135136C25.5621 0.0505217 25.78 0.00695801 26 0.00695801C26.22 0.00695801 26.4379 0.0505217 26.641 0.135136C26.8441 0.219751 27.0284 0.343741 27.1833 0.499955L31.4833 4.81662C31.7938 5.12889 31.968 5.55131 31.968 5.99162C31.968 6.43193 31.7938 6.85435 31.4833 7.16662L27.6667 11H14.3333V14.3333C14.3333 14.7753 14.1577 15.1992 13.8452 15.5118C13.5326 15.8244 13.1087 16 12.6667 16C12.2246 16 11.8007 15.8244 11.4882 15.5118C11.1756 15.1992 11 14.7753 11 14.3333V9.33329C11 8.44923 11.3512 7.60139 11.9763 6.97626C12.6014 6.35114 13.4493 5.99995 14.3333 5.99995ZM4.33333 14.3333V21L0.516667 24.8166C0.206249 25.1289 0.0320129 25.5513 0.0320129 25.9916C0.0320129 26.4319 0.206249 26.8544 0.516667 27.1666L4.81667 31.4833C4.97161 31.6395 5.15594 31.7635 5.35904 31.8481C5.56214 31.9327 5.77998 31.9763 6 31.9763C6.22002 31.9763 6.43786 31.9327 6.64096 31.8481C6.84406 31.7635 7.02839 31.6395 7.18333 31.4833L14.3333 24.3333H21C21.442 24.3333 21.8659 24.1577 22.1785 23.8451C22.4911 23.5326 22.6667 23.1086 22.6667 22.6666V21H24.3333C24.7754 21 25.1993 20.8244 25.5118 20.5118C25.8244 20.1992 26 19.7753 26 19.3333V17.6666H27.6667C28.1087 17.6666 28.5326 17.491 28.8452 17.1785C29.1577 16.8659 29.3333 16.442 29.3333 16V14.3333H17.6667V16C17.6667 16.884 17.3155 17.7319 16.6904 18.357C16.0652 18.9821 15.2174 19.3333 14.3333 19.3333H11C10.1159 19.3333 9.2681 18.9821 8.64298 18.357C8.01786 17.7319 7.66667 16.884 7.66667 16V11L4.33333 14.3333Z"
+                    fill="#292E3D"
+                  />
+                </svg>
+              </div>
+
               <p class="services-card__name">Consultation</p>
             </div>
             <div class="services-card__item services-card__item--blue">
               <div class="services-card__icon">
-                <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="41"
+                  height="40"
+                  viewBox="0 0 41 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <g clip-path="url(#clip0_239_30)">
-                  <rect x="0.5" y="16.6667" width="23.3333" height="23.3333" fill="#7595FD"/>
-                  <path d="M30.5 26.6667H27.1667V25.0001H13.8334V26.6667H10.5V25.0001H3.83337V33.3334H37.1667V25.0001H30.5V26.6667ZM33.8334 13.3334H28.8334V10.0001C28.8334 8.16675 27.3334 6.66675 25.5 6.66675H15.5C13.6667 6.66675 12.1667 8.16675 12.1667 10.0001V13.3334H7.16671C5.33337 13.3334 3.83337 14.8334 3.83337 16.6667V23.3334H10.5V20.0001H13.8334V23.3334H27.1667V20.0001H30.5V23.3334H37.1667V16.6667C37.1667 14.8334 35.6667 13.3334 33.8334 13.3334ZM25.5 13.3334H15.5V10.0001H25.5V13.3334Z" fill="white"/>
+                    <rect
+                      x="0.5"
+                      y="16.6667"
+                      width="23.3333"
+                      height="23.3333"
+                      fill="#7595FD"
+                    />
+                    <path
+                      d="M30.5 26.6667H27.1667V25.0001H13.8334V26.6667H10.5V25.0001H3.83337V33.3334H37.1667V25.0001H30.5V26.6667ZM33.8334 13.3334H28.8334V10.0001C28.8334 8.16675 27.3334 6.66675 25.5 6.66675H15.5C13.6667 6.66675 12.1667 8.16675 12.1667 10.0001V13.3334H7.16671C5.33337 13.3334 3.83337 14.8334 3.83337 16.6667V23.3334H10.5V20.0001H13.8334V23.3334H27.1667V20.0001H30.5V23.3334H37.1667V16.6667C37.1667 14.8334 35.6667 13.3334 33.8334 13.3334ZM25.5 13.3334H15.5V10.0001H25.5V13.3334Z"
+                      fill="white"
+                    />
                   </g>
                   <defs>
-                  <clipPath id="clip0_239_30">
-                  <rect width="40" height="40" fill="white" transform="translate(0.5)"/>
-                  </clipPath>
+                    <clipPath id="clip0_239_30">
+                      <rect
+                        width="40"
+                        height="40"
+                        fill="white"
+                        transform="translate(0.5)"
+                      />
+                    </clipPath>
                   </defs>
-                  </svg>
+                </svg>
               </div>
-             
-                
-                <p class="services-card__name">Repair Services</p>
+
+              <p class="services-card__name">Repair Services</p>
             </div>
-  
+
             <div class="services-card__item services-card__item--white">
-              <div class="services-card__icon"><svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_239_13)">
-                <rect x="0.5" y="16.6667" width="23.3333" height="23.3333" fill="#7595FD"/>
-                <path d="M11.1 31.3L11.5166 35L14.2166 32.4333L18.8333 19.7667C17.7 19.4833 16.7 18.9167 15.8833 18.1333L11.1 31.3ZM25.1166 18.1333C24.3 18.9167 23.2833 19.4833 22.1666 19.7667L26.7833 32.4333L29.4833 35L29.9166 31.3L25.1166 18.1333V18.1333ZM25.4 14.3333C25.9 11.7333 24.4 9.43333 22.1666 8.63333V6.66667C22.1666 5.75 21.4166 5 20.5 5C19.5833 5 18.8333 5.75 18.8333 6.66667V8.63333C16.9 9.33333 15.5 11.1667 15.5 13.3333C15.5 16.4 18.2666 18.8333 21.4333 18.25C23.4 17.8833 25.0166 16.3 25.4 14.3333V14.3333ZM20.5 15C19.5833 15 18.8333 14.25 18.8333 13.3333C18.8333 12.4167 19.5833 11.6667 20.5 11.6667C21.4166 11.6667 22.1666 12.4167 22.1666 13.3333C22.1666 14.25 21.4166 15 20.5 15Z" fill="#292E3D"/>
-                </g>
-                <defs>
-                <clipPath id="clip0_239_13">
-                <rect width="40" height="40" fill="white" transform="translate(0.5)"/>
-                </clipPath>
-                </defs>
-                </svg></div>
-              
-                             
+              <div class="services-card__icon">
+                <svg
+                  width="41"
+                  height="40"
+                  viewBox="0 0 41 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_239_13)">
+                    <rect
+                      x="0.5"
+                      y="16.6667"
+                      width="23.3333"
+                      height="23.3333"
+                      fill="#7595FD"
+                    />
+                    <path
+                      d="M11.1 31.3L11.5166 35L14.2166 32.4333L18.8333 19.7667C17.7 19.4833 16.7 18.9167 15.8833 18.1333L11.1 31.3ZM25.1166 18.1333C24.3 18.9167 23.2833 19.4833 22.1666 19.7667L26.7833 32.4333L29.4833 35L29.9166 31.3L25.1166 18.1333V18.1333ZM25.4 14.3333C25.9 11.7333 24.4 9.43333 22.1666 8.63333V6.66667C22.1666 5.75 21.4166 5 20.5 5C19.5833 5 18.8333 5.75 18.8333 6.66667V8.63333C16.9 9.33333 15.5 11.1667 15.5 13.3333C15.5 16.4 18.2666 18.8333 21.4333 18.25C23.4 17.8833 25.0166 16.3 25.4 14.3333V14.3333ZM20.5 15C19.5833 15 18.8333 14.25 18.8333 13.3333C18.8333 12.4167 19.5833 11.6667 20.5 11.6667C21.4166 11.6667 22.1666 12.4167 22.1666 13.3333C22.1666 14.25 21.4166 15 20.5 15Z"
+                      fill="#292E3D"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_239_13">
+                      <rect
+                        width="40"
+                        height="40"
+                        fill="white"
+                        transform="translate(0.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
               <p class="services-card__name">Architecture</p>
             </div>
             <div class="services-card__item services-card__item--blue">
               <div class="services-card__icon">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect y="16.6667" width="23.3333" height="23.3333" fill="#7595FD"/>
-                  <path d="M35 23.3333C35 22.4167 34.25 21.6667 33.3333 21.6667H30V25H33.3333C34.25 25 35 24.25 35 23.3333ZM33.3333 28.3333H30V31.6667H33.3333C34.25 31.6667 35 30.9167 35 30C35 29.0833 34.25 28.3333 33.3333 28.3333ZM20 23.3333H16.6667V30H20C20 31.8333 21.5 33.3333 23.3333 33.3333H28.3333V20H23.3333C21.5 20 20 21.5 20 23.3333Z" fill="white"/>
-                  <path d="M8.33333 21.6667C8.33333 19.8334 9.83333 18.3334 11.6667 18.3334H14.1667C17.3833 18.3334 20 15.7167 20 12.5001C20 9.28341 17.3833 6.66675 14.1667 6.66675H8.33333C7.41667 6.66675 6.66667 7.41675 6.66667 8.33341C6.66667 9.25008 7.41667 10.0001 8.33333 10.0001H14.1667C15.55 10.0001 16.6667 11.1167 16.6667 12.5001C16.6667 13.8834 15.55 15.0001 14.1667 15.0001H11.6667C7.98333 15.0001 5 17.9834 5 21.6667C5 25.3501 7.98333 28.3334 11.6667 28.3334H15V25.0001H11.6667C9.83333 25.0001 8.33333 23.5001 8.33333 21.6667Z" fill="white"/>
-                  </svg> </div>
-                          
-                <p class="services-card__name">Electric</p>
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    y="16.6667"
+                    width="23.3333"
+                    height="23.3333"
+                    fill="#7595FD"
+                  />
+                  <path
+                    d="M35 23.3333C35 22.4167 34.25 21.6667 33.3333 21.6667H30V25H33.3333C34.25 25 35 24.25 35 23.3333ZM33.3333 28.3333H30V31.6667H33.3333C34.25 31.6667 35 30.9167 35 30C35 29.0833 34.25 28.3333 33.3333 28.3333ZM20 23.3333H16.6667V30H20C20 31.8333 21.5 33.3333 23.3333 33.3333H28.3333V20H23.3333C21.5 20 20 21.5 20 23.3333Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M8.33333 21.6667C8.33333 19.8334 9.83333 18.3334 11.6667 18.3334H14.1667C17.3833 18.3334 20 15.7167 20 12.5001C20 9.28341 17.3833 6.66675 14.1667 6.66675H8.33333C7.41667 6.66675 6.66667 7.41675 6.66667 8.33341C6.66667 9.25008 7.41667 10.0001 8.33333 10.0001H14.1667C15.55 10.0001 16.6667 11.1167 16.6667 12.5001C16.6667 13.8834 15.55 15.0001 14.1667 15.0001H11.6667C7.98333 15.0001 5 17.9834 5 21.6667C5 25.3501 7.98333 28.3334 11.6667 28.3334H15V25.0001H11.6667C9.83333 25.0001 8.33333 23.5001 8.33333 21.6667Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+
+              <p class="services-card__name">Electric</p>
             </div>
           </div>
         </div>
         <div class="experience">
           <div class="experience-card">
-          
-          <div class="experience-card__item experience-card__item--left">
-            
-            <img class="experience-card__img" src="./images/projects-icon.png" alt="experience icon"/>
-            <h3 class="experience-card__title">123</h3>
-            <p class="experience-card__description">Projects Completed</p>
-          
-          </div>
-          <div class="experience-card__item experience-card__item--right">
-            
-            <img class="experience-card__img" src="./images/clients-icon.png" alt="experience icon"/>
-            <h3 class="experience-card__title">84</h3>
-            <p class="experience-card__content">Happy Clients</p>
-          
-        </div>
-        <div class="experience-card__item experience-card__item--left">
-            
-          <img class="experience-card__img" src="./images/business-icon.png" alt="experience icon"/>
-          <h3 class="experience-card__title">30</h3>
-          <p class="experience-card__description">Years in Business</p>
-        
-        </div>
-          <div class="experience-card__item experience-card__item--right">
-            
-            <img class="experience-card__img" src="./images/award-icon.png" alt="experience icon"/>
-            <h3 class="experience-card__title">37</h3>
-            <p class="experience-card__description">Awards Win</p>
-          
-          </div>
+            <div class="experience-card__item experience-card__item--left">
+              <h3 class="experience-card__title">123</h3>
+              <p class="experience-card__description">Projects Completed</p>
+              <img
+                class="experience-card__img"
+                src="./images/projects-icon.png"
+                alt="experience icon"
+              />
+            </div>
+            <div class="experience-card__item experience-card__item--right">
+              <h3 class="experience-card__title">84</h3>
+              <p class="experience-card__content">Happy Clients</p>
+              <img
+                class="experience-card__img"
+                src="./images/clients-icon.png"
+                alt="experience icon"
+              />
+            </div>
+            <div class="experience-card__item experience-card__item--left">
+              <h3 class="experience-card__title">30</h3>
+              <p class="experience-card__description">Years in Business</p>
+              <img
+                class="experience-card__img"
+                src="./images/business-icon.png"
+                alt="experience icon"
+              />
+            </div>
+            <div class="experience-card__item experience-card__item--right">
+              <h3 class="experience-card__title">37</h3>
+              <p class="experience-card__description">Awards Win</p>
+              <img
+                class="experience-card__img"
+                src="./images/award-icon.png"
+                alt="experience icon"
+              />
+            </div>
           </div>
           <div class="experience-content">
             <h3 class="experience-content__title">30 Years Experience</h3>
-            <p class="experience-content__description">Our company has been the leading provided construction services to clients throughout the USA since 1988.</p>
-            <button class="button button--hover button--blue">Contact Us</button>
+            <p class="experience-content__description">
+              Our company has been the leading provided construction services to
+              clients throughout the USA since 1988.
+            </p>
+            <button class="button button--hover button--blue">
+              Contact Us
+            </button>
           </div>
         </div>
         <div class="relative flex items-center px-4 py-10 md:px-20 md:h-44">
-          <img class="absolute inset-0 object-cover object-center w-full h-full md:h-44" src="./images/consultancy.png" alt="consultancy"/>
-          <div class="relative z-0 justify-between w-full space-y-6 text-white md:space-y-0 md:flex">
+          <img
+            class="absolute inset-0 object-cover object-center w-full h-full md:h-44"
+            src="./images/consultancy.png"
+            alt="consultancy"
+          />
+          <div
+            class="relative z-0 justify-between w-full space-y-6 text-white md:space-y-0 md:flex"
+          >
             <div class="space-y-4">
-              <h3 class="text-xl font-bold">Free consultation with exceptional quality</h3>
-              <p class="text-xs">Just one call away: <span class="underline">+84 1102 2703</span></p>
+              <h3 class="text-xl font-bold">
+                Free consultation with exceptional quality
+              </h3>
+              <p class="text-xs">
+                Just one call away: <span class="underline">+84 1102 2703</span>
+              </p>
             </div>
-            <button class="self-center button button--hover button--transparent ">Get your consultation</button>
+            <button
+              class="self-center button button--hover button--transparent"
+            >
+              Get your consultation
+            </button>
           </div>
-         
         </div>
       </section>
       <section id="projects" class="projects">
         <h3 class="projects__title">Projects</h3>
         <div class="projects-content">
           <ul class="projects-sidebar">
-            <li class="projects-sidebar__item"><a href="#" class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active">All</a></li>
-            <li class="projects-sidebar__item"><a href="#" class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active">Commercial</a></li>
-            <li class="projects-sidebar__item"><a href="#" class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active">Residential</a></li>
-            <li class="projects-sidebar__item"><a href="#" class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active">Other</a></li>
+            <li class="projects-sidebar__item">
+              <a
+                href="#"
+                class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active"
+                >All</a
+              >
+            </li>
+            <li class="projects-sidebar__item">
+              <a
+                href="#"
+                class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active"
+                >Commercial</a
+              >
+            </li>
+            <li class="projects-sidebar__item">
+              <a
+                href="#"
+                class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active"
+                >Residential</a
+              >
+            </li>
+            <li class="projects-sidebar__item">
+              <a
+                href="#"
+                class="projects-sidebar__link projects-sidebar__link--hover projects-sidebar__link--active"
+                >Other</a
+              >
+            </li>
           </ul>
           <div>
             <div class="projects-card">
               <div class="projects-card__item">
-                <img class="projects-card__img" src="/images/project_1.png" alt="Project 1 "/>
+                <img
+                  class="projects-card__img"
+                  src="/images/project_1.png"
+                  alt="Project 1 "
+                />
                 <div class="projects-card__body">
                   <h5 class="projects-card__title">Wildstone Infra Hotel</h5>
-                <p class="projects-card__description">2715 Ash Dr. San Jose, South Dakota</p>
+                  <p class="projects-card__description">
+                    2715 Ash Dr. San Jose, South Dakota
+                  </p>
                 </div>
-                
               </div>
-              <div class="projects-card__item"><img class="projects-card__img" src="/images/project_2.png" alt="Project 1 "/>
+              <div class="projects-card__item">
+                <img
+                  class="projects-card__img"
+                  src="/images/project_2.png"
+                  alt="Project 1 "
+                />
                 <div class="projects-card__body">
                   <h5 class="projects-card__title">Wish Stone Building</h5>
-                <p class="projects-card__description">2972 Westheimer Rd. Santa Ana, Illinois </p>
+                  <p class="projects-card__description">
+                    2972 Westheimer Rd. Santa Ana, Illinois
+                  </p>
                 </div>
               </div>
-              <div class="projects-card__item"><img class="projects-card__img" src="/images/project_3.png" alt="Project 1 "/>
+              <div class="projects-card__item">
+                <img
+                  class="projects-card__img"
+                  src="/images/project_3.png"
+                  alt="Project 1 "
+                />
                 <div class="projects-card__body">
                   <h5 class="projects-card__title">Mr. Parkinston’s House</h5>
-                <p class="projects-card__description">3517 W. Gray St. Utica, Pennsylvania </p>
+                  <p class="projects-card__description">
+                    3517 W. Gray St. Utica, Pennsylvania
+                  </p>
                 </div>
               </div>
-              <div class="projects-card__item"><img class="projects-card__img" src="/images/project_4.png" alt="Project 1 "/>
+              <div class="projects-card__item">
+                <img
+                  class="projects-card__img"
+                  src="/images/project_4.png"
+                  alt="Project 1 "
+                />
                 <div class="projects-card__body">
                   <h5 class="projects-card__title">Oregano Height</h5>
-                <p class="projects-card__description">2464 Royal Ln. Mesa, New Jersey </p>
+                  <p class="projects-card__description">
+                    2464 Royal Ln. Mesa, New Jersey
+                  </p>
                 </div>
               </div>
             </div>
@@ -404,90 +604,192 @@
               </button>
             </div>
           </div>
-          
         </div>
-        
       </section>
       <section id="contact" class="contacts">
         <h3 class="contacts__title">What can us do for you?</h3>
-        <p class="contacts__description">We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
+        <p class="contacts__description">
+          We are ready to work on a project of any complexity, whether it’s
+          commercial or residential.
+        </p>
         <form class="contacts-form">
           <div class="contacts-form__group">
             <div class="">
-              <label class="contacts-form__label contacts-form__label--hidden" for="name">Your Name*</label>
-              <input type="text" id="name" placeholder="Your Name*" class="contacts-form__input"/>
+              <label
+                class="contacts-form__label contacts-form__label--hidden"
+                for="name"
+                >Your Name*</label
+              >
+              <input
+                type="text"
+                id="name"
+                placeholder="Your Name*"
+                class="contacts-form__input"
+              />
             </div>
             <div class="">
-              <label class="contacts-form__label contacts-form__label--hidden" for="email">Email*</label>
-              <input type="email" id="email" placeholder="Email*" class="contacts-form__input"/>
+              <label
+                class="contacts-form__label contacts-form__label--hidden"
+                for="email"
+                >Email*</label
+              >
+              <input
+                type="email"
+                id="email"
+                placeholder="Email*"
+                class="contacts-form__input"
+              />
             </div>
           </div>
           <div class="contacts-form__group">
             <div class="">
-              <label class="contacts-form__label contacts-form__label--hidden" for="reason">Reason for Contacting*</label>
-              <input type="text" id="reason" placeholder="Reason for Contacting*" class="contacts-form__input"/>
+              <label
+                class="contacts-form__label contacts-form__label--hidden"
+                for="reason"
+                >Reason for Contacting*</label
+              >
+              <input
+                type="text"
+                id="reason"
+                placeholder="Reason for Contacting*"
+                class="contacts-form__input"
+              />
             </div>
             <div class="">
-              <label class="contacts-form__label contacts-form__label--hidden" for="phone">Phone</label>
-              <input type="number" id="phone" placeholder="Phone" class="contacts-form__input"/>
+              <label
+                class="contacts-form__label contacts-form__label--hidden"
+                for="phone"
+                >Phone</label
+              >
+              <input
+                type="number"
+                id="phone"
+                placeholder="Phone"
+                class="contacts-form__input"
+              />
             </div>
           </div>
           <div>
-            <label class="contacts-form__label contacts-form__label--hidden" for="message">Message</label>
-            <textarea id="message" class="contacts-form__textarea" placeholder=""></textarea>
+            <label
+              class="contacts-form__label contacts-form__label--hidden"
+              for="message"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              class="contacts-form__textarea"
+              placeholder=""
+            ></textarea>
           </div>
-          <div><p>* indicates a required field</p></div>
-          <div class="flex justify-center w-full"><button class="px-10 sm:px-16 button button--blue button--hover button--focus">Submit</button></div>
-          
+          <div class="flex items-center space-x-2">
+            <p class="text-xs text-red-600">*</p>
+            <p class="text-sm">indicates a required field</p>
+          </div>
+          <div class="flex justify-center w-full">
+            <button
+              class="px-10 sm:px-16 button button--blue button--hover button--focus"
+            >
+              Submit
+            </button>
+          </div>
         </form>
-      </section> 
-      
+      </section>
     </main>
     <footer class="footer">
       <div class="footer-up">
         <div class="footer-address">
           <div class="footer-address__item">
-            <p class="footer-address__title">Address:<span class="footer-address__content">6391 Elgin St. Celina, Delaware 10299</span></p>
+            <p class="footer-address__title">
+              Address:<span class="footer-address__content"
+                >6391 Elgin St. Celina, Delaware 10299</span
+              >
+            </p>
           </div>
           <div class="footer-address__item">
-            <p class="footer-address__title">Phone:<span class="footer-address__content">+84 1102 2703</span></p>
+            <p class="footer-address__title">
+              Phone:<span class="footer-address__content">+84 1102 2703</span>
+            </p>
           </div>
           <div class="footer-address__item">
-            <p class="footer-address__title">Email::<span class="footer-address__content">hello@thebox.com</span></p>
+            <p class="footer-address__title">
+              Email:<span class="footer-address__content"
+                >hello@thebox.com</span
+              >
+            </p>
           </div>
           <div class="footer-address__item">
             <img src="./images/logo.png" alt="Logo" class="" />
-      <p class="text-base font-bold text-brandblue">The box</p>
+            <p class="text-base font-bold text-brandblue">The box</p>
           </div>
         </div>
         <div class="footer-contact">
           <div class="space-y-4">
             <h5 class="footer-address__title">Newsletter:</h5>
             <div class="footer-address__item">
-              <label for="subscribe-email" class="contacts-form__label contacts-form__label--hidden">Email</label>
-              <input id="subscribe-email" type="email" class="border border-gray-200 contacts-form__input " placeholder="Your email here"/>
-              <button class="px-5 button button--orange button--hover button--focus">Submit</button>
+              <label
+                for="subscribe-email"
+                class="contacts-form__label contacts-form__label--hidden"
+                >Email</label
+              >
+              <input
+                id="subscribe-email"
+                type="email"
+                class="border border-gray-200 contacts-form__input"
+                placeholder="Your email here"
+              />
+              <button
+                class="px-5 button button--orange button--hover button--focus"
+              >
+                Submit
+              </button>
             </div>
           </div>
           <div class="space-y-4">
             <h5 class="footer-address__title">Social:</h5>
             <div class="footer-address__item">
-              <svg class="w-6 h-6" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 20.1117C0 30.055 7.22167 38.3233 16.6667 40V25.555H11.6667V20H16.6667V15.555C16.6667 10.555 19.8883 7.77833 24.445 7.77833C25.8883 7.77833 27.445 8 28.8883 8.22167V13.3333H26.3333C23.8883 13.3333 23.3333 14.555 23.3333 16.1117V20H28.6667L27.7783 25.555H23.3333V40C32.7783 38.3233 40 30.0567 40 20.1117C40 9.05 31 0 20 0C9 0 0 9.05 0 20.1117Z" fill="#3D445C"/>
-                </svg>
-                <svg class="w-6 h-6" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 0.799805C9.39599 0.799805 0.799988 9.39581 0.799988 19.9998C0.799988 30.6038 9.39599 39.1998 20 39.1998C30.604 39.1998 39.2 30.6038 39.2 19.9998C39.2 9.39581 30.604 0.799805 20 0.799805ZM15.3 27.9578H11.412V15.4458H15.3V27.9578ZM13.332 13.9098C12.104 13.9098 11.31 13.0398 11.31 11.9638C11.31 10.8658 12.128 10.0218 13.382 10.0218C14.636 10.0218 15.404 10.8658 15.428 11.9638C15.428 13.0398 14.636 13.9098 13.332 13.9098ZM29.5 27.9578H25.612V21.0238C25.612 19.4098 25.048 18.3138 23.642 18.3138C22.568 18.3138 21.93 19.0558 21.648 19.7698C21.544 20.0238 21.518 20.3838 21.518 20.7418V27.9558H17.628V19.4358C17.628 17.8738 17.578 16.5678 17.526 15.4438H20.904L21.082 17.1818H21.16C21.672 16.3658 22.926 15.1618 25.024 15.1618C27.582 15.1618 29.5 16.8758 29.5 20.5598V27.9578Z" fill="#3D445C"/>
-                  </svg>
-                  <svg class="w-6 h-6" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 0.799805C9.39599 0.799805 0.799988 9.39581 0.799988 19.9998C0.799988 30.6038 9.39599 39.1998 20 39.1998C30.604 39.1998 39.2 30.6038 39.2 19.9998C39.2 9.39581 30.604 0.799805 20 0.799805ZM27.81 16.5278C27.818 16.6918 27.82 16.8558 27.82 17.0158C27.82 22.0158 24.018 27.7778 17.062 27.7778C15.0066 27.7812 12.9939 27.1909 11.266 26.0778C11.56 26.1138 11.862 26.1278 12.168 26.1278C13.94 26.1278 15.57 25.5258 16.864 24.5098C16.0754 24.4943 15.3113 24.2332 14.6782 23.7628C14.0451 23.2925 13.5745 22.6363 13.332 21.8858C13.8983 21.9935 14.4817 21.9709 15.038 21.8198C14.1821 21.6467 13.4124 21.183 12.8594 20.5071C12.3064 19.8313 12.0042 18.985 12.004 18.1118V18.0658C12.514 18.3478 13.098 18.5198 13.718 18.5398C12.9156 18.0057 12.3476 17.1851 12.1301 16.2461C11.9126 15.307 12.0621 14.3203 12.548 13.4878C13.4979 14.6558 14.6825 15.6113 16.0251 16.2924C17.3677 16.9736 18.8384 17.3651 20.342 17.4418C20.1508 16.6304 20.2331 15.7786 20.576 15.0188C20.9189 14.259 21.5032 13.6338 22.2381 13.2403C22.973 12.8469 23.8173 12.7073 24.6398 12.8431C25.4622 12.979 26.2167 13.3829 26.786 13.9918C27.6323 13.8244 28.4439 13.5139 29.186 13.0738C28.9039 13.9501 28.3133 14.6942 27.524 15.1678C28.2737 15.0775 29.0057 14.876 29.696 14.5698C29.189 15.3296 28.5503 15.9927 27.81 16.5278Z" fill="#3D445C"/>
-                    </svg>
-                                        
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 20.1117C0 30.055 7.22167 38.3233 16.6667 40V25.555H11.6667V20H16.6667V15.555C16.6667 10.555 19.8883 7.77833 24.445 7.77833C25.8883 7.77833 27.445 8 28.8883 8.22167V13.3333H26.3333C23.8883 13.3333 23.3333 14.555 23.3333 16.1117V20H28.6667L27.7783 25.555H23.3333V40C32.7783 38.3233 40 30.0567 40 20.1117C40 9.05 31 0 20 0C9 0 0 9.05 0 20.1117Z"
+                  fill="#3D445C"
+                />
+              </svg>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 0.799805C9.39599 0.799805 0.799988 9.39581 0.799988 19.9998C0.799988 30.6038 9.39599 39.1998 20 39.1998C30.604 39.1998 39.2 30.6038 39.2 19.9998C39.2 9.39581 30.604 0.799805 20 0.799805ZM15.3 27.9578H11.412V15.4458H15.3V27.9578ZM13.332 13.9098C12.104 13.9098 11.31 13.0398 11.31 11.9638C11.31 10.8658 12.128 10.0218 13.382 10.0218C14.636 10.0218 15.404 10.8658 15.428 11.9638C15.428 13.0398 14.636 13.9098 13.332 13.9098ZM29.5 27.9578H25.612V21.0238C25.612 19.4098 25.048 18.3138 23.642 18.3138C22.568 18.3138 21.93 19.0558 21.648 19.7698C21.544 20.0238 21.518 20.3838 21.518 20.7418V27.9558H17.628V19.4358C17.628 17.8738 17.578 16.5678 17.526 15.4438H20.904L21.082 17.1818H21.16C21.672 16.3658 22.926 15.1618 25.024 15.1618C27.582 15.1618 29.5 16.8758 29.5 20.5598V27.9578Z"
+                  fill="#3D445C"
+                />
+              </svg>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 0.799805C9.39599 0.799805 0.799988 9.39581 0.799988 19.9998C0.799988 30.6038 9.39599 39.1998 20 39.1998C30.604 39.1998 39.2 30.6038 39.2 19.9998C39.2 9.39581 30.604 0.799805 20 0.799805ZM27.81 16.5278C27.818 16.6918 27.82 16.8558 27.82 17.0158C27.82 22.0158 24.018 27.7778 17.062 27.7778C15.0066 27.7812 12.9939 27.1909 11.266 26.0778C11.56 26.1138 11.862 26.1278 12.168 26.1278C13.94 26.1278 15.57 25.5258 16.864 24.5098C16.0754 24.4943 15.3113 24.2332 14.6782 23.7628C14.0451 23.2925 13.5745 22.6363 13.332 21.8858C13.8983 21.9935 14.4817 21.9709 15.038 21.8198C14.1821 21.6467 13.4124 21.183 12.8594 20.5071C12.3064 19.8313 12.0042 18.985 12.004 18.1118V18.0658C12.514 18.3478 13.098 18.5198 13.718 18.5398C12.9156 18.0057 12.3476 17.1851 12.1301 16.2461C11.9126 15.307 12.0621 14.3203 12.548 13.4878C13.4979 14.6558 14.6825 15.6113 16.0251 16.2924C17.3677 16.9736 18.8384 17.3651 20.342 17.4418C20.1508 16.6304 20.2331 15.7786 20.576 15.0188C20.9189 14.259 21.5032 13.6338 22.2381 13.2403C22.973 12.8469 23.8173 12.7073 24.6398 12.8431C25.4622 12.979 26.2167 13.3829 26.786 13.9918C27.6323 13.8244 28.4439 13.5139 29.186 13.0738C28.9039 13.9501 28.3133 14.6942 27.524 15.1678C28.2737 15.0775 29.0057 14.876 29.696 14.5698C29.189 15.3296 28.5503 15.9927 27.81 16.5278Z"
+                  fill="#3D445C"
+                />
+              </svg>
             </div>
           </div>
         </div>
       </div>
       <div class="footer-down">
-        <p class="text-xs text-white ">TheBox Company © 2022. All Rights Reserved</p>
+        <p class="text-xs text-white">
+          TheBox Company © 2022. All Rights Reserved
+        </p>
       </div>
     </footer>
   </body>
